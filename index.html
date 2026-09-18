@@ -1,0 +1,1895 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0c">
+<meta name="color-scheme" content="dark light">
+
+<title>UNDIPRO — Undangan Digital Pro untuk Segala Acara</title>
+<meta name="description" content="UNDIPRO — Platform undangan digital premium. Setiap undangan dirancang dari nol sesuai cerita acara Anda. Proses 1×24 jam.">
+<meta name="keywords" content="undangan digital, undangan pernikahan online, undangan ulang tahun, undangan wisuda, undipro">
+<meta name="author" content="UNDIPRO">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://undipro.id/">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://undipro.id/">
+<meta property="og:title" content="UNDIPRO — Undangan Digital Pro untuk Segala Acara">
+<meta property="og:description" content="Setiap undangan kami rancang dari nol — bukan template yang dijual berulang.">
+<meta property="og:image" content="https://undipro.id/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="UNDIPRO">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="UNDIPRO — Undangan Digital Pro">
+<meta name="twitter:description" content="Setiap undangan dirancang dari nol. Selesai dalam 1×24 jam.">
+<meta name="twitter:image" content="https://undipro.id/og-image.png">
+
+<!-- FAVICON -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f0a35e'/%3E%3Cstop offset='1' stop-color='%23c54a10'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0a0c'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-style='italic' font-weight='600' font-size='42' fill='url(%23g)' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "UNDIPRO",
+  "url": "https://undipro.id/",
+  "logo": "https://undipro.id/logo.png",
+  "description": "Jasa undangan digital premium untuk segala acara.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+62-851-1050-0807",
+    "contactType": "customer service"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Fraunces', 'serif'],
+        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'],
+      },
+      colors: {
+        // DARK
+        void:    '#050507',
+        ink:     '#08080a',
+        coal:    '#0d0d10',
+        smoke:   '#131317',
+        ash:     '#1c1c22',
+        slate:   '#26262e',
+        stone:   '#38383f',
+        mist:    '#8a8a94',
+        paper:   '#f5f4f0',
+        bone:    '#e8e6df',
+        // LIGHT
+        cream:   '#f7f5f1',
+        linen:   '#efece5',
+        wheat:   '#e6e1d7',
+        fog:     '#d8d4ca',
+        pebble:  '#8a8378',
+        graphite:'#3a3530',
+        // ACCENT
+        copper:  '#e5692e',
+        ember:   '#c54a10',
+        amber:   '#f0a35e',
+        moss:    '#7a8450',
+        wine:    '#8a3a3a',
+        plum:    '#5c3d5c',
+        ocean:   '#2d4a63',
+      },
+      animation: {
+        'fade-up': 'fadeUp .9s cubic-bezier(.16,1,.3,1) both',
+        'fade-in': 'fadeIn .7s ease both',
+        'float': 'float 8s ease-in-out infinite',
+        'marquee': 'marquee 50s linear infinite',
+        'pulse-soft': 'pulseSoft 2.4s ease-in-out infinite',
+        'ping-slow': 'pingSlow 2.2s cubic-bezier(0,0,.2,1) infinite',
+        'shimmer': 'shimmer 1.4s linear infinite',
+        'breathe': 'breathe 5s ease-in-out infinite',
+        'aurora': 'aurora 20s ease-in-out infinite',
+        'drift': 'drift 30s ease-in-out infinite',
+        'scan': 'scan 6s ease-in-out infinite',
+        'petal': 'petalFloat 10s linear infinite',
+        'sparkle': 'sparkle 3s ease-in-out infinite',
+        'orbit': 'orbit 22s linear infinite',
+        'spin-reveal': 'spinReveal 1.2s cubic-bezier(.16,1,.3,1) both',
+        'progress-slide': 'progressSlide 1.8s ease-in-out infinite',
+        'dot-bounce': 'dotBounce 1.4s ease-in-out infinite',
+        'morph': 'morph 8s ease-in-out infinite',
+      },
+      keyframes: {
+        fadeUp: { from: { opacity: '0', transform: 'translateY(28px)' }, to: { opacity: '1', transform: 'none' } },
+        fadeIn: { from: { opacity: '0' }, to: { opacity: '1' } },
+        float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } },
+        marquee: { to: { transform: 'translateX(-50%)' } },
+        pulseSoft: { '0%,100%': { opacity: '1' }, '50%': { opacity: '.55' } },
+        pingSlow: { '0%': { transform: 'scale(1)', opacity: '.7' }, '75%,100%': { transform: 'scale(2.2)', opacity: '0' } },
+        shimmer: {
+          '0%': { backgroundPosition: '-200% 0' },
+          '100%': { backgroundPosition: '200% 0' }
+        },
+        breathe: { '0%,100%': { transform: 'scale(1)', opacity: '.4' }, '50%': { transform: 'scale(1.1)', opacity: '.75' } },
+        aurora: {
+          '0%,100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' }
+        },
+        drift: {
+          '0%,100%': { transform: 'translate(0,0) scale(1)' },
+          '33%': { transform: 'translate(30px,-20px) scale(1.05)' },
+          '66%': { transform: 'translate(-20px,25px) scale(.97)' }
+        },
+        scan: {
+          '0%,100%': { transform: 'translateY(-100%)' },
+          '50%': { transform: 'translateY(100%)' }
+        },
+        petalFloat: {
+          '0%': { transform: 'translateY(100%) translateX(0)', opacity: '0' },
+          '10%': { opacity: '1' },
+          '90%': { opacity: '1' },
+          '100%': { transform: 'translateY(-100vh) translateX(40px)', opacity: '0' }
+        },
+        sparkle: {
+          '0%,100%': { opacity: '0', transform: 'scale(0)' },
+          '50%': { opacity: '1', transform: 'scale(1.4)' }
+        },
+        orbit: { to: { transform: 'rotate(360deg)' } },
+        spinReveal: {
+          '0%': { transform: 'rotate(0deg) scale(.4)', opacity: '0' },
+          '100%': { transform: 'rotate(720deg) scale(1)', opacity: '1' }
+        },
+        progressSlide: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(400%)' }
+        },
+        dotBounce: {
+          '0%,80%,100%': { transform: 'translateY(0)', opacity: '.4' },
+          '40%': { transform: 'translateY(-8px)', opacity: '1' }
+        },
+        morph: {
+          '0%,100%': { borderRadius: '40% 60% 55% 45% / 55% 45% 55% 45%', transform: 'rotate(0deg)' },
+          '33%': { borderRadius: '60% 40% 45% 55% / 45% 55% 45% 55%', transform: 'rotate(120deg)' },
+          '66%': { borderRadius: '45% 55% 60% 40% / 60% 40% 60% 40%', transform: 'rotate(240deg)' }
+        },
+      }
+    }
+  }
+}
+</script>
+
+<style>
+  :root { --copper: #e5692e; }
+
+  /* ============ THEME VARIABLES ============ */
+  html {
+    --bg: #050507;
+    --bg-2: #08080a;
+    --bg-3: #0d0d10;
+    --bg-4: #131317;
+    --border: #1c1c22;
+    --border-2: #26262e;
+    --text: #f5f4f0;
+    --text-muted: #8a8a94;
+    --text-dim: rgba(245,244,240,.5);
+    --grid-line: rgba(245,244,240,.022);
+    --card-from: #0d0d10;
+    --card-to: #08080a;
+  }
+  html:not(.dark) {
+    --bg: #f7f5f1;
+    --bg-2: #ffffff;
+    --bg-3: #efece5;
+    --bg-4: #e6e1d7;
+    --border: #e6e1d7;
+    --border-2: #d8d4ca;
+    --text: #1a1712;
+    --text-muted: #6b6459;
+    --text-dim: rgba(26,23,18,.55);
+    --grid-line: rgba(26,23,18,.04);
+    --card-from: #ffffff;
+    --card-to: #f7f5f1;
+  }
+
+  * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  html, body { background: var(--bg); }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--text);
+    overflow-x: hidden;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    transition: background-color .4s ease, color .4s ease;
+  }
+  ::selection { background: var(--copper); color: #ffffff; }
+
+  /* ============ AMBIENT GRID ============ */
+  body::before {
+    content: "";
+    position: fixed; inset: 0;
+    pointer-events: none; z-index: 0;
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 72px 72px;
+    mask-image: radial-gradient(ellipse 100% 60% at 50% 40%, #000 30%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 100% 60% at 50% 40%, #000 30%, transparent 100%);
+  }
+
+  /* ============ GRAIN ============ */
+  body::after {
+    content: "";
+    position: fixed; inset: 0; z-index: 200;
+    pointer-events: none; opacity: .04;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 20px; border: 2px solid var(--bg); }
+  ::-webkit-scrollbar-thumb:hover { background: var(--copper); }
+
+  .eyebrow {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 10px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+  .mono-num { font-family: 'JetBrains Mono', ui-monospace, monospace; font-feature-settings: "tnum"; }
+
+  .grad-copper {
+    background: linear-gradient(135deg, #f0a35e 0%, #e5692e 50%, #c54a10 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .ulink { position: relative; display: inline-block; padding-bottom: 2px; }
+  .ulink::after {
+    content: ""; position: absolute; left: 0; bottom: 0;
+    width: 100%; height: 1px; background: currentColor;
+    transform: scaleX(0); transform-origin: right;
+    transition: transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  .ulink:hover::after { transform: scaleX(1); transform-origin: left; }
+
+  .nav-link { position: relative; transition: color .25s; }
+  .nav-link::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -6px;
+    height: 1px; background: #e5692e;
+    transform: scaleX(0); transition: transform .3s cubic-bezier(.16,1,.3,1);
+  }
+  .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); }
+  .nav-link.active { color: var(--text); }
+
+  .rv { opacity: 0; transform: translateY(24px); transition: opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1); }
+  .rv.on { opacity: 1; transform: none; }
+  .rv-s { opacity: 0; transform: scale(.94); transition: opacity .9s cubic-bezier(.16,1,.3,1), transform .9s cubic-bezier(.16,1,.3,1); }
+  .rv-s.on { opacity: 1; transform: scale(1); }
+  .rv-l { opacity: 0; transform: translateX(-32px); transition: all .9s cubic-bezier(.16,1,.3,1); }
+  .rv-l.on { opacity: 1; transform: none; }
+  .rv-r { opacity: 0; transform: translateX(32px); transition: all .9s cubic-bezier(.16,1,.3,1); }
+  .rv-r.on { opacity: 1; transform: none; }
+
+  .btn-premium {
+    position: relative; overflow: hidden; isolation: isolate;
+    transition: color .35s cubic-bezier(.16,1,.3,1), transform .3s;
+  }
+  .btn-premium::before {
+    content: ""; position: absolute; inset: 0;
+    background: var(--bg);
+    transform: translateY(101%);
+    transition: transform .45s cubic-bezier(.16,1,.3,1);
+    z-index: -1;
+  }
+  .btn-premium:hover::before { transform: translateY(0); }
+  .btn-premium:active { transform: scale(.98); }
+
+  .shine { position: relative; overflow: hidden; }
+  .shine::after {
+    content: ""; position: absolute; inset: 0;
+    background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.35) 50%, transparent 70%);
+    transform: translateX(-120%);
+    animation: shimmer-sweep 3.5s ease-in-out infinite;
+  }
+  @keyframes shimmer-sweep {
+    0% { transform: translateX(-120%); }
+    100% { transform: translateX(120%); }
+  }
+
+  .tslider {
+    display: flex; gap: 20px;
+    width: max-content;
+    animation: marquee 70s linear infinite;
+    will-change: transform;
+  }
+  .tslider.paused { animation-play-state: paused; }
+  .tslider-wrap { cursor: grab; }
+  .tslider-wrap:active { cursor: grabbing; }
+
+  .card-p {
+    position: relative;
+    background: linear-gradient(180deg, var(--card-from) 0%, var(--card-to) 100%);
+    border: 1px solid var(--border);
+    transition: border-color .4s cubic-bezier(.16,1,.3,1), transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  .card-p::before {
+    content: "";
+    position: absolute; inset: -1px;
+    border-radius: inherit; padding: 1px;
+    background: linear-gradient(135deg, rgba(229,105,46,.6), transparent 40%, transparent 60%, rgba(240,163,94,.4));
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor; mask-composite: exclude;
+    opacity: 0; transition: opacity .45s; pointer-events: none;
+  }
+  .card-p:hover { border-color: transparent; transform: translateY(-2px); }
+  .card-p:hover::before { opacity: 1; }
+
+  :focus-visible { outline: 2px solid #e5692e; outline-offset: 3px; border-radius: 2px; }
+
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary .plus { transition: transform .4s cubic-bezier(.16,1,.3,1); }
+  details[open] > summary .plus { transform: rotate(45deg); }
+
+  /* ============ 3D SHOWCASE ============ */
+  .showcase-stage {
+    perspective: 2000px;
+    perspective-origin: 50% 50%;
+  }
+  .showcase-card {
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition: transform 1.1s cubic-bezier(.16,1,.3,1);
+  }
+  .showcase-card .layer {
+    transform-style: preserve-3d;
+    transition: transform .9s cubic-bezier(.16,1,.3,1);
+  }
+  .showcase-card:hover .layer-shallow { transform: translateZ(30px); }
+  .showcase-card:hover .layer-deep { transform: translateZ(60px); }
+  .showcase-card:hover .layer-float { transform: translateZ(90px); }
+
+  /* ============ THEME CARDS ============ */
+  .theme-wedding {
+    background:
+      radial-gradient(ellipse 100% 70% at 50% 0%, rgba(240,163,94,.28), transparent 55%),
+      radial-gradient(ellipse 60% 50% at 50% 100%, rgba(138,58,58,.35), transparent 60%),
+      linear-gradient(180deg, #1a1410 0%, #0a0806 100%);
+  }
+  .theme-wedding .petal {
+    position: absolute;
+    width: 4px; height: 4px;
+    background: radial-gradient(circle, rgba(240,163,94,.9), rgba(240,163,94,0));
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(240,163,94,.7);
+    animation: petalFloat 10s linear infinite;
+  }
+
+  .theme-birthday {
+    background:
+      radial-gradient(ellipse 100% 80% at 30% 20%, rgba(229,105,46,.42), transparent 55%),
+      radial-gradient(ellipse 90% 70% at 70% 80%, rgba(92,61,92,.5), transparent 55%),
+      linear-gradient(180deg, #1c0f0a 0%, #0a0505 100%);
+  }
+  .theme-birthday::before {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(229,105,46,.15), rgba(92,61,92,.15), rgba(240,163,94,.15));
+    background-size: 300% 300%;
+    animation: aurora 14s ease-in-out infinite;
+    mix-blend-mode: screen;
+  }
+  .theme-birthday .sparkle {
+    position: absolute;
+    width: 3px; height: 3px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255,255,255,.9), 0 0 20px rgba(240,163,94,.6);
+    animation: sparkle 3s ease-in-out infinite;
+  }
+
+  .theme-corporate {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(45,74,99,.35), transparent 55%),
+      radial-gradient(ellipse 100% 80% at 80% 100%, rgba(56,56,63,.4), transparent 55%),
+      linear-gradient(180deg, #0f1418 0%, #05070a 100%);
+  }
+  .theme-corporate::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(138,138,148,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(138,138,148,.05) 1px, transparent 1px);
+    background-size: 32px 32px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, #000 20%, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, #000 20%, transparent 80%);
+  }
+  .theme-corporate .scan {
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, transparent 40%, rgba(45,74,99,.35) 50%, transparent 60%);
+    animation: scan 6s ease-in-out infinite;
+  }
+
+  .animated-gradient-text {
+    background: linear-gradient(90deg, #f0a35e, #e5692e, #f0a35e, #c54a10, #f0a35e);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: aurora 6s ease-in-out infinite;
+  }
+
+  .magnetic { transition: transform .3s cubic-bezier(.16,1,.3,1); will-change: transform; }
+
+  /* ================================================================
+     ===================== PRELOADER / SKELETON =====================
+     ================================================================ */
+  #preloader {
+    position: fixed; inset: 0;
+    z-index: 9999;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    transition: opacity .6s ease, visibility .6s ease;
+  }
+  #preloader.done {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  /* ---- Organic morphing blob loader ---- */
+  .morph-blob {
+    width: 88px; height: 88px;
+    background: linear-gradient(135deg, #f0a35e, #e5692e 50%, #c54a10);
+    border-radius: 40% 60% 55% 45% / 55% 45% 55% 45%;
+    animation: morph 8s ease-in-out infinite, spinOrbit 12s linear infinite;
+    box-shadow: 0 20px 60px -20px rgba(229,105,46,.7), 0 0 80px -10px rgba(229,105,46,.4);
+    position: relative;
+  }
+  .morph-blob::after {
+    content: "";
+    position: absolute; inset: 12px;
+    background: linear-gradient(135deg, rgba(255,255,255,.5), transparent 60%);
+    border-radius: inherit;
+    animation: morph 8s ease-in-out infinite reverse;
+  }
+  @keyframes spinOrbit { to { transform: rotate(360deg); } }
+
+  /* ---- Premium name reveal ---- */
+  .preloader-name {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    display: flex;
+    gap: 2px;
+  }
+  .preloader-name span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(24px) rotateX(-90deg);
+    animation: letterReveal .8s cubic-bezier(.16,1,.3,1) forwards;
+  }
+  @keyframes letterReveal {
+    to { opacity: 1; transform: none; }
+  }
+
+  /* ---- Undeterminate progress bar (thin) ---- */
+  .preloader-bar {
+    width: 240px;
+    height: 2px;
+    background: var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+    position: relative;
+  }
+  .preloader-bar::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 40%;
+    background: linear-gradient(90deg, transparent, #e5692e, #f0a35e, #e5692e, transparent);
+    border-radius: 999px;
+    animation: progressSlide 1.8s ease-in-out infinite;
+  }
+
+  /* ---- Bouncing dots (fallback aesthetic) ---- */
+  .dot-bounce {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #e5692e;
+    display: inline-block;
+    animation: dotBounce 1.4s ease-in-out infinite;
+  }
+  .dot-bounce:nth-child(2) { animation-delay: .15s; background: #f0a35e; }
+  .dot-bounce:nth-child(3) { animation-delay: .3s; background: #c54a10; }
+
+  /* ---- Loading percentage ticker ---- */
+  .preloader-pct {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: .2em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+  }
+
+  /* ================================================================
+     ================== SKELETON PLACEHOLDERS =======================
+     ================================================================ */
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      var(--border) 0%,
+      var(--border-2) 50%,
+      var(--border) 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+    border-radius: 6px;
+  }
+  .skeleton-line { height: 12px; margin-bottom: 8px; }
+  .skeleton-line:last-child { margin-bottom: 0; width: 60%; }
+  .skeleton-card {
+    background: linear-gradient(180deg, var(--card-from), var(--card-to));
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .skeleton-circle {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, var(--border) 0%, var(--border-2) 50%, var(--border) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+  .skeleton-badge {
+    width: 80px; height: 20px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--border) 0%, var(--border-2) 50%, var(--border) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+
+  /* ============ THEME TOGGLE BUTTON ============ */
+  .theme-toggle {
+    position: relative;
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    border: 1px solid var(--border-2);
+    background: var(--bg-3);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s cubic-bezier(.16,1,.3,1);
+  }
+  .theme-toggle:hover {
+    border-color: rgba(229,105,46,.6);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -8px rgba(229,105,46,.5);
+  }
+  .theme-toggle:active { transform: scale(.94); }
+  .theme-toggle svg {
+    position: absolute;
+    transition: transform .6s cubic-bezier(.16,1,.3,1), opacity .3s;
+    color: var(--text);
+  }
+  .theme-toggle .icon-sun { transform: translateY(0) rotate(0); opacity: 1; }
+  .theme-toggle .icon-moon { transform: translateY(40px) rotate(-180deg); opacity: 0; }
+  html:not(.dark) .theme-toggle .icon-sun { transform: translateY(-40px) rotate(180deg); opacity: 0; }
+  html:not(.dark) .theme-toggle .icon-moon { transform: translateY(0) rotate(0); opacity: 1; }
+
+  /* ============ THEME-AWARE OVERRIDES (light mode) ============ */
+  html:not(.dark) .card-p:hover::before {
+    background: linear-gradient(135deg, rgba(229,105,46,.4), transparent 40%, transparent 60%, rgba(240,163,94,.3));
+  }
+
+  /* ============ REDUCED MOTION ============ */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .01ms !important;
+    }
+  }
+</style>
+</head>
+<body class="font-sans antialiased">
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader">
+  <!-- Morphing blob -->
+  <div class="morph-blob"></div>
+
+  <!-- Brand name reveal -->
+  <div class="preloader-name">
+    <span style="animation-delay:.1s">U</span>
+    <span style="animation-delay:.15s">N</span>
+    <span style="animation-delay:.2s">D</span>
+    <span style="animation-delay:.25s">I</span>
+    <span style="animation-delay:.3s">P</span>
+    <span style="animation-delay:.35s">R</span>
+    <span style="animation-delay:.4s">O</span>
+  </div>
+
+  <!-- Undeterminate bar -->
+  <div class="preloader-bar"></div>
+
+  <!-- Bouncing dots + label -->
+  <div class="flex flex-col items-center gap-4">
+    <div class="flex gap-2">
+      <span class="dot-bounce"></span>
+      <span class="dot-bounce"></span>
+      <span class="dot-bounce"></span>
+    </div>
+    <div class="preloader-pct">
+      Menyiapkan pengalaman premium · <span id="pctValue">0</span>%
+    </div>
+  </div>
+</div>
+
+<!-- ============ TOP STATUS BAR ============ -->
+<div class="fixed top-0 inset-x-0 z-40 h-9 bg-void/80 dark:bg-void/80 backdrop-blur-xl border-b border-ash/60 flex items-center justify-center text-[10px] font-mono tracking-widest text-mist/80">
+  <span class="hidden md:inline-flex items-center gap-2">
+    <span class="relative flex w-1.5 h-1.5">
+      <span class="absolute inline-flex w-full h-full rounded-full bg-moss animate-ping-slow"></span>
+      <span class="relative inline-flex w-1.5 h-1.5 rounded-full bg-moss"></span>
+    </span>
+    UNDIPRO.ID — PREMIUM INVITATION STUDIO
+  </span>
+  <span class="md:hidden">UNDIPRO.ID</span>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header id="nav" class="fixed top-9 inset-x-0 z-50 transition-all duration-500">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="flex items-center justify-between h-[68px]">
+      <!-- LOGO (klik = refresh) -->
+      <a href="" onclick="window.location.reload(); return false;" class="flex items-center gap-3 group" aria-label="Refresh halaman">
+        <div class="relative w-10 h-10 rounded-lg overflow-hidden border border-slate/60 bg-coal flex-shrink-0 shine">
+          <img src="logo.jpg" alt="UNDIPRO Logo" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+        </div>
+        <div class="flex flex-col leading-none">
+          <span class="text-[15px] font-semibold tracking-tight">UNDIPRO</span>
+          <span class="text-[9px] tracking-[.22em] uppercase text-mist font-mono mt-1">Undangan Digital Pro</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-1 text-[13px] text-mist bg-smoke/40 border border-ash/60 rounded-full px-2 py-1.5">
+        <a href="#acara" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">Acara</a>
+        <a href="#fitur" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">Fitur</a>
+        <a href="#karya" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">Karya</a>
+        <a href="#harga" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">Harga</a>
+        <a href="#testimoni" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">Testimoni</a>
+        <a href="#faq" class="nav-link hover:text-paper transition-colors px-4 py-1.5 rounded-full">FAQ</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <!-- THEME TOGGLE -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Ganti tema">
+          <svg class="icon-sun w-[18px] h-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+          </svg>
+          <svg class="icon-moon w-[18px] h-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+
+        <a href="https://wa.me/6285110500807" target="_blank" rel="noopener" class="hidden md:inline-flex items-center gap-2 text-[13px] text-mist hover:text-paper transition-colors px-2">
+          <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          0851-1050-0807
+        </a>
+        <a href="#order" class="hidden md:inline-flex btn-premium items-center gap-2 px-5 py-2.5 rounded-full bg-paper text-ink text-[13px] font-semibold">
+          <span class="relative z-10 flex items-center gap-2">
+            Order Sekarang
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+        <button id="menuToggle" class="lg:hidden w-10 h-10 grid place-items-center text-paper" aria-label="Buka menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" class="w-5 h-5">
+            <path d="M3 7h18M3 12h18M3 17h18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="lg:hidden hidden border-t border-ash/60 bg-ink/98 backdrop-blur-2xl">
+    <div class="max-w-[1280px] w-[94%] mx-auto py-5 flex flex-col">
+      <a href="#acara" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">Jenis Acara <span class="mono-num text-[10px] text-mist">01</span></a>
+      <a href="#fitur" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">Fitur <span class="mono-num text-[10px] text-mist">02</span></a>
+      <a href="#karya" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">Karya <span class="mono-num text-[10px] text-mist">03</span></a>
+      <a href="#harga" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">Harga <span class="mono-num text-[10px] text-mist">04</span></a>
+      <a href="#testimoni" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">Testimoni <span class="mono-num text-[10px] text-mist">05</span></a>
+      <a href="#faq" class="mob-link py-3.5 text-paper/85 hover:text-copper transition text-sm border-b border-ash/40 flex items-center justify-between">FAQ <span class="mono-num text-[10px] text-mist">06</span></a>
+      <a href="#order" class="mob-link mt-5 inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-paper text-ink text-sm font-semibold">
+        Order Sekarang
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="w-3.5 h-3.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative pt-44 pb-24 md:pt-52 md:pb-32 overflow-hidden">
+  <div class="absolute top-1/4 -left-40 w-[600px] h-[600px] rounded-full pointer-events-none opacity-[.14] animate-breathe" style="background:radial-gradient(circle, #e5692e 0%, transparent 65%); filter: blur(90px)"></div>
+  <div class="absolute bottom-0 right-0 w-[520px] h-[520px] rounded-full pointer-events-none opacity-[.10] animate-breathe" style="background:radial-gradient(circle, #f0a35e 0%, transparent 65%); filter: blur(100px); animation-delay: 2s"></div>
+
+  <div class="relative max-w-[1280px] w-[94%] mx-auto grid lg:grid-cols-12 gap-14 lg:gap-16 items-center">
+
+    <div class="lg:col-span-7">
+      <div class="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full border border-ash/60 bg-smoke/40 mb-8 animate-fade-up" style="animation-delay:.05s">
+        <span class="relative flex w-1.5 h-1.5">
+          <span class="absolute inline-flex w-full h-full rounded-full bg-moss animate-ping-slow"></span>
+          <span class="relative inline-flex w-1.5 h-1.5 rounded-full bg-moss"></span>
+        </span>
+        <span class="eyebrow !text-mist">Menerima order — Sep 2026</span>
+      </div>
+
+      <h1 class="font-display text-[clamp(2.6rem,6.4vw,5rem)] leading-[.98] tracking-[-0.03em] mb-7 font-light">
+        <span class="split-line block overflow-hidden"><span class="block" style="animation:fadeUp .9s .15s cubic-bezier(.16,1,.3,1) both">Undangan digital</span></span>
+        <span class="split-line block overflow-hidden"><span class="block" style="animation:fadeUp .9s .25s cubic-bezier(.16,1,.3,1) both">yang terasa</span></span>
+        <span class="split-line block overflow-hidden"><span class="block italic animated-gradient-text font-medium" style="animation:fadeUp .9s .35s cubic-bezier(.16,1,.3,1) both">seperti karya Anda.</span></span>
+      </h1>
+
+      <p class="text-mist text-[16px] md:text-[17px] leading-relaxed max-w-[560px] mb-10 animate-fade-up" style="animation-delay:.45s">
+        Bukan template yang dijual berulang. Setiap undangan dimulai dari konsep, dipilih warnanya, disusun tipografinya — sesuai cerita acara Anda.
+      </p>
+
+      <div class="flex flex-wrap gap-3 mb-14 animate-fade-up" style="animation-delay:.55s">
+        <a href="#order" data-magnetic class="magnetic btn-premium inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-copper text-white text-[13.5px] font-semibold">
+          <span class="relative z-10 flex items-center gap-2.5">
+            Mulai Pesan
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </span>
+        </a>
+        <a href="#karya" data-magnetic class="magnetic btn-premium inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full border border-slate text-paper text-[13.5px] font-semibold">
+          <span class="relative z-10 flex items-center gap-2.5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="9" cy="9" r="2"/>
+              <path d="M21 15l-5-5L5 21"/>
+            </svg>
+            Lihat Contoh Karya
+          </span>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 max-w-[520px] pt-8 border-t border-ash/60 animate-fade-up" style="animation-delay:.65s">
+        <div>
+          <span class="font-display text-[34px] leading-none mono-num font-light">3.847</span>
+          <div class="eyebrow mt-2">Acara selesai</div>
+        </div>
+        <div>
+          <span class="font-display text-[34px] leading-none mono-num font-light">4.9</span>
+          <svg viewBox="0 0 24 24" fill="#e5692e" class="w-4 h-4 inline mb-1 ml-1"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <div class="eyebrow mt-2">Dari 1.280 ulasan</div>
+        </div>
+        <div>
+          <span class="font-display text-[34px] leading-none mono-num font-light">1</span>
+          <span class="font-mono text-[12px] text-mist ml-1">hari</span>
+          <div class="eyebrow mt-2">Rata-rata proses</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHONE MOCKUP (dengan skeleton saat delay) -->
+    <div class="lg:col-span-5 flex justify-center lg:justify-end relative">
+      <div class="hidden md:block absolute -top-2 -left-4 z-20 animate-float" style="animation-delay:.5s">
+        <div class="card-p rounded-lg px-3.5 py-2.5 backdrop-blur-xl">
+          <div class="flex items-center gap-2">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.6" class="w-3.5 h-3.5">
+              <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+              <circle cx="8.5" cy="7" r="4"/>
+              <path d="M20 8v6M23 11h-6"/>
+            </svg>
+            <div>
+              <div class="mono-num text-[10px] text-mist tracking-wider uppercase">RSVP MASUK</div>
+              <div class="font-semibold text-[13px] text-paper">+284 tamu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden md:block absolute bottom-16 -right-6 z-20 animate-float" style="animation-delay:1.2s">
+        <div class="card-p rounded-lg px-3.5 py-2.5 backdrop-blur-xl">
+          <div class="flex items-center gap-2">
+            <div class="flex gap-0.5 text-copper">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-3 h-3"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <div>
+              <div class="mono-num text-[10px] text-mist tracking-wider uppercase">RATING</div>
+              <div class="font-semibold text-[13px] text-paper">4.9 / 5.0</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="phone" class="relative z-10 transition-transform duration-700 will-change-transform" style="transform: rotate(-3deg)">
+        <div class="relative rounded-[42px] p-3 bg-gradient-to-b from-smoke to-void border border-slate/70"
+             style="box-shadow: 0 60px 100px -40px rgba(0,0,0,.95), 0 0 0 1px rgba(229,105,46,.10), inset 0 1px 0 rgba(255,255,255,.05);">
+
+          <div class="absolute top-4 left-1/2 -translate-x-1/2 w-24 h-6 bg-void rounded-full z-30 flex items-center justify-end pr-2.5">
+            <div class="w-2 h-2 rounded-full bg-slate/80"></div>
+          </div>
+
+          <div class="relative w-[300px] rounded-[32px] overflow-hidden h-[600px] bg-void">
+
+            <!-- SKELETON while loading -->
+            <div id="phoneSkeleton" class="absolute inset-0 pt-20 px-7 bg-gradient-to-b from-coal to-void flex flex-col items-center gap-4">
+              <div class="skeleton-badge"></div>
+              <div class="skeleton w-[120px] h-[46px] mt-4"></div>
+              <div class="skeleton-circle" style="width:24px;height:24px"></div>
+              <div class="skeleton w-[110px] h-[46px]"></div>
+              <div class="skeleton w-[180px] h-[14px] mt-6"></div>
+              <div class="grid grid-cols-3 gap-2 w-full mt-4">
+                <div class="skeleton h-[52px]"></div>
+                <div class="skeleton h-[52px]"></div>
+                <div class="skeleton h-[52px]"></div>
+              </div>
+              <div class="skeleton w-[200px] h-[44px] rounded-full mt-6"></div>
+            </div>
+
+            <!-- Real content (hidden until loaded) -->
+            <div id="phoneContent" class="absolute inset-0 pt-14 opacity-0 transition-opacity duration-700"
+                 style="background: radial-gradient(120% 70% at 50% 0%, rgba(229,105,46,.16), transparent 55%), linear-gradient(180deg, #16161a 0%, #050507 100%);">
+
+              <div class="absolute top-16 left-1/2 -translate-x-1/2 flex items-center gap-2">
+                <span class="w-8 h-px bg-copper/40"></span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.2" class="w-3.5 h-3.5">
+                  <path d="M12 2l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/>
+                </svg>
+                <span class="w-8 h-px bg-copper/40"></span>
+              </div>
+
+              <div class="pt-28 px-7 text-center">
+                <p class="font-mono text-[9px] tracking-[.28em] uppercase text-mist/80 mb-4">KAMI MENGUNDANG ANDA KE</p>
+
+                <div class="my-6">
+                  <h3 class="font-serif italic text-[44px] leading-[.95] text-paper font-medium">Ratna</h3>
+                  <div class="flex items-center justify-center gap-3 my-2.5">
+                    <span class="w-10 h-px bg-paper/15"></span>
+                    <span class="font-serif text-[22px] text-copper italic">&</span>
+                    <span class="w-10 h-px bg-paper/15"></span>
+                  </div>
+                  <h3 class="font-serif italic text-[44px] leading-[.95] text-paper font-medium">Bagas</h3>
+                </div>
+
+                <div class="mt-8 inline-flex flex-col items-center gap-1.5">
+                  <span class="font-mono text-[9px] tracking-[.24em] uppercase text-mist/80">SABTU</span>
+                  <div class="flex items-baseline gap-2 text-paper">
+                    <span class="font-serif text-3xl mono-num">14</span>
+                    <span class="font-mono text-[10px] tracking-[.22em] uppercase text-copper">DES</span>
+                    <span class="font-serif text-3xl mono-num">2026</span>
+                  </div>
+                </div>
+
+                <div class="mt-9 grid grid-cols-3 gap-1.5 max-w-[230px] mx-auto">
+                  <div class="border border-slate/60 rounded-lg py-2.5 bg-smoke/40">
+                    <div class="font-serif text-xl mono-num text-paper leading-none">28</div>
+                    <div class="font-mono text-[8px] tracking-[.18em] uppercase text-mist/70 mt-1.5">HARI</div>
+                  </div>
+                  <div class="border border-slate/60 rounded-lg py-2.5 bg-smoke/40">
+                    <div class="font-serif text-xl mono-num text-paper leading-none">06</div>
+                    <div class="font-mono text-[8px] tracking-[.18em] uppercase text-mist/70 mt-1.5">JAM</div>
+                  </div>
+                  <div class="border border-slate/60 rounded-lg py-2.5 bg-smoke/40">
+                    <div class="font-serif text-xl mono-num text-paper leading-none">42</div>
+                    <div class="font-mono text-[8px] tracking-[.18em] uppercase text-mist/70 mt-1.5">MENIT</div>
+                  </div>
+                </div>
+
+                <button class="mt-8 w-full max-w-[230px] mx-auto block py-3.5 rounded-full bg-copper text-white text-[12px] font-semibold tracking-wide">
+                  Buka Undangan
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="border-y border-ash/60 py-5 overflow-hidden bg-coal/50">
+  <div class="flex gap-0 animate-marquee w-max items-center">
+    <div class="flex items-center gap-14 pr-14">
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Pernikahan</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Ulang Tahun</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Khitanan</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Wisuda</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Aqiqah</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Gathering</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Reuni</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Corporate</span>
+      <span class="text-copper text-[10px]">◆</span>
+    </div>
+    <div class="flex items-center gap-14 pr-14" aria-hidden="true">
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Pernikahan</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Ulang Tahun</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Khitanan</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Wisuda</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Aqiqah</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Gathering</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Reuni</span>
+      <span class="text-copper text-[10px]">◆</span>
+      <span class="font-serif italic text-[22px] text-paper/60 whitespace-nowrap">Corporate</span>
+      <span class="text-copper text-[10px]">◆</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ ACARA ============ -->
+<section id="acara" class="relative py-28 md:py-36">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="grid md:grid-cols-12 gap-8 mb-16 rv">
+      <div class="md:col-span-5">
+        <div class="eyebrow mb-4 flex items-center gap-3">
+          <span class="text-copper">01</span>
+          <span class="w-8 h-px bg-slate"></span>
+          <span>Jenis Acara</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] font-light">
+          Kami tidak membatasi diri pada satu jenis perayaan.
+        </h2>
+      </div>
+      <div class="md:col-span-5 md:col-start-8 flex items-end">
+        <p class="text-mist text-[15px] leading-relaxed">
+          Setiap acara punya karakter sendiri. Maka setiap undangan kami rancang ulang dari nol — bukan sekadar ganti warna dari template yang sama.
+        </p>
+      </div>
+    </div>
+
+    <div class="border-t border-ash/60">
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 01</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Pernikahan</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Akad & resepsi, galeri love story, RSVP, amplop digital.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 02</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Ulang Tahun</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Sweet seventeen, milad, surprise party dengan tema ceria.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 03</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Khitanan & Aqiqah</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Sentuhan islami, doa, jadwal acara keluarga.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 04</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Wisuda</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Rayakan kelulusan dengan foto momen & pesan inspiratif.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 05</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Corporate Event</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Gathering, launching, seminar dengan branding profesional.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-mist group-hover:text-copper transition-colors">/ 06</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight group-hover:text-copper transition-colors font-light">Reuni & Syukuran</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Nostalgia sekolah, komunitas, atau syukuran keluarga.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-mist group-hover:text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      <a href="#order" class="group rv grid grid-cols-12 gap-4 py-7 border-b border-ash/60 items-center transition-all duration-500 hover:bg-coal/60 hover:pl-3 cursor-pointer">
+        <div class="col-span-2 md:col-span-1 mono-num text-[11px] text-copper">/ 07</div>
+        <div class="col-span-10 md:col-span-4 font-display text-[26px] md:text-[32px] leading-tight text-copper font-light">Acara Lainnya →</div>
+        <div class="col-span-12 md:col-span-5 text-mist text-[14px] md:pl-4">Ceritakan konsep Anda. Kami bantu wujudkan sesuai tema.</div>
+        <div class="col-span-12 md:col-span-2 flex justify-end">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-copper group-hover:translate-x-1.5 transition-all duration-300"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FITUR ============ -->
+<section id="fitur" class="relative py-28 md:py-36 bg-coal/40 border-y border-ash/60">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="mb-16 rv">
+      <div class="eyebrow mb-4 flex items-center gap-3">
+        <span class="text-copper">02</span>
+        <span class="w-8 h-px bg-slate"></span>
+        <span>Fitur</span>
+      </div>
+      <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] max-w-[680px] font-light">
+        Bukan sekadar halaman web. Ini pengalaman yang tamu Anda ingat.
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-6 gap-4">
+      <div class="md:col-span-4 rv card-p rounded-2xl p-8 md:p-10 relative overflow-hidden">
+        <div class="absolute top-6 right-6 mono-num text-[10px] text-mist/50">/ 01</div>
+        <div class="w-12 h-12 rounded-xl border border-slate/70 bg-coal grid place-items-center mb-6">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
+            <rect x="3" y="5" width="18" height="14" rx="2"/>
+            <path d="M3 10h18"/>
+            <circle cx="12" cy="15" r="1.5"/>
+          </svg>
+        </div>
+        <h3 class="font-display text-[26px] md:text-[30px] leading-tight mb-3 font-light">Desain dibuat dari nol untuk Anda</h3>
+        <p class="text-mist text-[14.5px] leading-relaxed max-w-[500px]">Bukan template yang dijual berulang. Setiap undangan dimulai dari konsep, dipilih warna, tipografi, dan detailnya sesuai cerita acara Anda.</p>
+        <div class="mt-8 flex items-center gap-3 text-[12px] font-mono text-mist/70">
+          <span class="w-6 h-px bg-copper"></span>
+          <span>Tema dari 30+ preset + custom</span>
+        </div>
+      </div>
+
+      <div class="md:col-span-2 rv card-p rounded-2xl p-7 relative">
+        <div class="absolute top-5 right-5 mono-num text-[10px] text-mist/50">/ 02</div>
+        <div class="w-11 h-11 rounded-xl border border-slate/70 bg-coal grid place-items-center mb-5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.4" class="w-5 h-5"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <h3 class="font-display text-xl mb-2.5 font-light">Musik & Animasi</h3>
+        <p class="text-mist text-[13.5px] leading-relaxed">Backsound pilihan dengan transisi yang tenang, tidak berlebihan.</p>
+      </div>
+
+      <div class="md:col-span-2 rv card-p rounded-2xl p-7 relative">
+        <div class="absolute top-5 right-5 mono-num text-[10px] text-mist/50">/ 03</div>
+        <div class="w-11 h-11 rounded-xl border border-slate/70 bg-coal grid place-items-center mb-5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.4" class="w-5 h-5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <h3 class="font-display text-xl mb-2.5 font-light">Galeri & Video</h3>
+        <p class="text-mist text-[13.5px] leading-relaxed">Momen terbaik ditata rapi dengan caption personal.</p>
+      </div>
+
+      <div class="md:col-span-2 rv card-p rounded-2xl p-7 relative">
+        <div class="absolute top-5 right-5 mono-num text-[10px] text-mist/50">/ 04</div>
+        <div class="w-11 h-11 rounded-xl border border-slate/70 bg-coal grid place-items-center mb-5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.4" class="w-5 h-5"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 class="font-display text-xl mb-2.5 font-light">RSVP & Buku Tamu</h3>
+        <p class="text-mist text-[13.5px] leading-relaxed">Tamu konfirmasi, Anda terima rekap otomatis.</p>
+      </div>
+
+      <div class="md:col-span-2 rv card-p rounded-2xl p-7 relative">
+        <div class="absolute top-5 right-5 mono-num text-[10px] text-mist/50">/ 05</div>
+        <div class="w-11 h-11 rounded-xl border border-slate/70 bg-coal grid place-items-center mb-5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#e5692e" stroke-width="1.4" class="w-5 h-5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M2 12h20"/></svg>
+        </div>
+        <h3 class="font-display text-xl mb-2.5 font-light">Amplop Digital</h3>
+        <p class="text-mist text-[13.5px] leading-relaxed">Transfer bank, e-wallet, QRIS — semua tercakup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KARYA ============ -->
+<section id="karya" class="relative py-28 md:py-36 overflow-hidden">
+  <div class="absolute inset-x-0 top-1/4 h-[600px] pointer-events-none opacity-30" style="background: radial-gradient(ellipse 50% 40% at 30% 50%, rgba(229,105,46,.15), transparent 60%), radial-gradient(ellipse 50% 40% at 70% 50%, rgba(92,61,92,.18), transparent 60%); filter: blur(80px)"></div>
+
+  <div class="max-w-[1280px] w-[94%] mx-auto relative">
+    <div class="grid md:grid-cols-12 gap-8 mb-20 rv">
+      <div class="md:col-span-7">
+        <div class="eyebrow mb-4 flex items-center gap-3">
+          <span class="text-copper">03</span>
+          <span class="w-8 h-px bg-slate"></span>
+          <span>Contoh Karya</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] font-light">
+          Setiap karya, <span class="italic grad-copper">cerita yang berbeda.</span>
+        </h2>
+      </div>
+      <div class="md:col-span-4 md:col-start-9 flex items-end">
+        <p class="text-mist text-[15px] leading-relaxed">Arahkan kursor untuk melihat detail. Tema asli bisa Anda pesan langsung atau jadikan referensi.</p>
+      </div>
+    </div>
+
+    <div class="showcase-stage grid md:grid-cols-3 gap-8 md:gap-6 lg:gap-8">
+
+      <!-- KARTU 1 — WEDDING -->
+      <div class="rv-s showcase-card group" data-tilt>
+        <div class="relative rounded-2xl overflow-hidden border border-slate/60 transition-all duration-700 group-hover:border-copper/60"
+             style="box-shadow: 0 30px 60px -30px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.04);">
+          <div class="theme-wedding relative h-[440px] overflow-hidden">
+            <div class="petal" style="left: 15%; animation-delay: 0s"></div>
+            <div class="petal" style="left: 32%; animation-delay: 2s"></div>
+            <div class="petal" style="left: 55%; animation-delay: 4s"></div>
+            <div class="petal" style="left: 78%; animation-delay: 1s"></div>
+            <div class="petal" style="left: 92%; animation-delay: 3s"></div>
+
+            <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-7">
+              <div class="layer layer-shallow flex items-center gap-2.5 mb-6">
+                <span class="w-10 h-px bg-amber/60"></span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#f0a35e" stroke-width="1.2" class="w-4 h-4"><path d="M12 2l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></svg>
+                <span class="w-10 h-px bg-amber/60"></span>
+              </div>
+
+              <p class="layer layer-shallow font-mono text-[9px] tracking-[.28em] uppercase text-amber/80 mb-3">THE WEDDING OF</p>
+
+              <h3 class="layer layer-deep font-serif italic text-[46px] leading-[.9] text-paper mb-1" style="text-shadow: 0 4px 30px rgba(240,163,94,.3)">Nadira</h3>
+
+              <div class="layer layer-deep flex items-center justify-center gap-3 my-3">
+                <span class="w-12 h-px bg-amber/40"></span>
+                <span class="font-serif italic text-[22px] text-amber">&</span>
+                <span class="w-12 h-px bg-amber/40"></span>
+              </div>
+
+              <h3 class="layer layer-deep font-serif italic text-[46px] leading-[.9] text-paper mb-8" style="text-shadow: 0 4px 30px rgba(240,163,94,.3)">Fikri</h3>
+
+              <div class="layer layer-float mt-3">
+                <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-amber/25 bg-void/40 backdrop-blur">
+                  <span class="mono-num text-[10px] tracking-[.22em] uppercase text-amber/90">12 · JUN · 2026</span>
+                </div>
+                <p class="mono-num text-[9px] tracking-[.24em] uppercase text-mist/60 mt-3">GRAND BALLROOM · JAKARTA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative p-5 border-t border-slate/60 bg-void/60 backdrop-blur">
+            <div class="flex items-center justify-between mb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber"></span>
+                <span class="eyebrow !text-amber/90">TEMA — CINEMATIC</span>
+              </div>
+              <span class="mono-num text-[10px] text-mist/50">01 / 03</span>
+            </div>
+            <div class="text-[13.5px] font-semibold text-paper">Pernikahan Sinematik</div>
+            <div class="mono-num text-[10px] text-mist/60 mt-1 tracking-wider">COPPER · WARM · ELEGANT</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KARTU 2 — BIRTHDAY -->
+      <div class="rv-s showcase-card group" data-tilt>
+        <div class="relative rounded-2xl overflow-hidden border border-slate/60 transition-all duration-700 group-hover:border-copper/60"
+             style="box-shadow: 0 30px 60px -30px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.04);">
+          <div class="theme-birthday relative h-[440px] overflow-hidden">
+            <div class="sparkle" style="top: 20%; left: 20%; animation-delay: 0s"></div>
+            <div class="sparkle" style="top: 35%; left: 75%; animation-delay: .6s"></div>
+            <div class="sparkle" style="top: 60%; left: 30%; animation-delay: 1.2s"></div>
+            <div class="sparkle" style="top: 75%; left: 85%; animation-delay: 1.8s"></div>
+            <div class="sparkle" style="top: 15%; left: 55%; animation-delay: 2.2s"></div>
+            <div class="sparkle" style="top: 85%; left: 45%; animation-delay: 1.5s"></div>
+
+            <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-7">
+              <p class="layer layer-shallow font-mono text-[9px] tracking-[.28em] uppercase text-amber/80 mb-4">SWEET SEVENTEEN</p>
+
+              <div class="layer layer-deep relative mb-3">
+                <span class="font-display text-[110px] leading-none font-light italic animated-gradient-text" style="text-shadow: 0 8px 40px rgba(229,105,46,.4)">17</span>
+                <svg viewBox="0 0 24 24" fill="#f0a35e" class="absolute -top-2 -right-2 w-6 h-6 animate-pulse-soft"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+
+              <h3 class="layer layer-deep font-serif italic text-[30px] text-paper mb-2">Amira Zahra</h3>
+
+              <div class="layer layer-shallow flex items-center gap-3 my-6">
+                <span class="w-8 h-px bg-paper/25"></span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#f0a35e" stroke-width="1.2" class="w-3.5 h-3.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+                <span class="w-8 h-px bg-paper/25"></span>
+              </div>
+
+              <div class="layer layer-float">
+                <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full border border-amber/25 bg-void/40 backdrop-blur">
+                  <span class="mono-num text-[10px] tracking-[.22em] uppercase text-amber/90">22 · AUG · 2026</span>
+                </div>
+                <p class="mono-num text-[9px] tracking-[.24em] uppercase text-mist/60 mt-3">SKY LOUNGE · BANDUNG</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative p-5 border-t border-slate/60 bg-void/60 backdrop-blur">
+            <div class="flex items-center justify-between mb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-copper"></span>
+                <span class="eyebrow !text-amber/90">TEMA — AURORA</span>
+              </div>
+              <span class="mono-num text-[10px] text-mist/50">02 / 03</span>
+            </div>
+            <div class="text-[13.5px] font-semibold text-paper">Ulang Tahun Aurora</div>
+            <div class="mono-num text-[10px] text-mist/60 mt-1 tracking-wider">COPPER · PLUM · PLAYFUL</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KARTU 3 — CORPORATE -->
+      <div class="rv-s showcase-card group" data-tilt>
+        <div class="relative rounded-2xl overflow-hidden border border-slate/60 transition-all duration-700 group-hover:border-copper/60"
+             style="box-shadow: 0 30px 60px -30px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.04);">
+          <div class="theme-corporate relative h-[440px] overflow-hidden">
+            <div class="scan"></div>
+
+            <div class="absolute top-6 left-6 w-4 h-4 border-t border-l border-mist/30"></div>
+            <div class="absolute top-6 right-6 w-4 h-4 border-t border-r border-mist/30"></div>
+            <div class="absolute bottom-6 left-6 w-4 h-4 border-b border-l border-mist/30"></div>
+            <div class="absolute bottom-6 right-6 w-4 h-4 border-b border-r border-mist/30"></div>
+
+            <div class="relative z-10 h-full flex flex-col items-center justify-center text-center px-7">
+              <div class="layer layer-deep w-16 h-16 mb-6 border border-mist/30 bg-void/40 backdrop-blur grid place-items-center relative">
+                <div class="absolute inset-0 border border-ocean/40 animate-pulse-soft"></div>
+                <svg viewBox="0 0 24 24" fill="none" stroke="#8a8a94" stroke-width="1.2" class="w-7 h-7"><rect x="2" y="7" width="20" height="14" rx="1"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/><path d="M2 13h20"/></svg>
+              </div>
+
+              <p class="layer layer-shallow font-mono text-[9px] tracking-[.28em] uppercase text-mist/70 mb-3">PT ASTRABUANA GROUP</p>
+
+              <h3 class="layer layer-deep font-display text-[34px] leading-[1.05] tracking-[-0.02em] text-paper mb-4 font-light">
+                Annual<br><span class="italic" style="color:#5d8bb0">Gathering</span>
+              </h3>
+
+              <div class="layer layer-shallow w-12 h-px bg-mist/40 my-5"></div>
+
+              <div class="layer layer-float">
+                <div class="inline-flex items-center gap-3 px-4 py-2 border border-mist/25 bg-void/50 backdrop-blur">
+                  <span class="mono-num text-[10px] tracking-[.22em] uppercase text-mist/90">18 · OKT · 2026</span>
+                </div>
+                <p class="mono-num text-[9px] tracking-[.24em] uppercase text-mist/50 mt-3">THE RITZ · JAKARTA</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative p-5 border-t border-slate/60 bg-void/60 backdrop-blur">
+            <div class="flex items-center justify-between mb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full" style="background:#5d8bb0"></span>
+                <span class="eyebrow" style="color:#7ba5c4">TEMA — TITANIUM</span>
+              </div>
+              <span class="mono-num text-[10px] text-mist/50">03 / 03</span>
+            </div>
+            <div class="text-[13.5px] font-semibold text-paper">Corporate Titanium</div>
+            <div class="mono-num text-[10px] text-mist/60 mt-1 tracking-wider">OCEAN · STEEL · PRESTIGE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-14 text-center rv">
+      <a href="#order" class="ulink text-copper text-[13.5px] font-semibold inline-flex items-center gap-1.5">
+        Pesan tema ini atau custom
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-3.5 h-3.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HARGA ============ -->
+<section id="harga" class="relative py-28 md:py-36 bg-coal/40 border-y border-ash/60">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="grid md:grid-cols-12 gap-8 mb-16 rv">
+      <div class="md:col-span-6">
+        <div class="eyebrow mb-4 flex items-center gap-3">
+          <span class="text-copper">04</span>
+          <span class="w-8 h-px bg-slate"></span>
+          <span>Harga</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] font-light">
+          Harga jujur.<br>Tanpa kejutan di akhir.
+        </h2>
+      </div>
+      <div class="md:col-span-5 md:col-start-8 flex items-end">
+        <p class="text-mist text-[15px] leading-relaxed">Semua paket sudah termasuk hosting selamanya. Revisi minor gratis. Tidak ada biaya tersembunyi.</p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="rv card-p rounded-2xl p-8 flex flex-col">
+        <div class="flex items-center justify-between mb-6">
+          <span class="eyebrow">Silver</span>
+          <span class="mono-num text-[10px] text-mist/60">01 / 03</span>
+        </div>
+        <div class="flex items-baseline gap-2 mb-3">
+          <span class="font-sans text-[13px] text-mist">Rp</span>
+          <span class="font-display text-[52px] leading-none mono-num font-light">149</span>
+          <span class="text-[13px] text-mist font-sans">ribu</span>
+        </div>
+        <p class="text-mist text-[13.5px] mb-7 pb-7 border-b border-ash/60">Untuk acara intim & sederhana.</p>
+        <ul class="space-y-3.5 mb-8 flex-1 text-[14px]">
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>1 tema pilihan</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Countdown & jadwal acara</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Galeri foto (maks. 6)</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Lokasi + Google Maps</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Musik latar</span></li>
+        </ul>
+        <a href="https://wa.me/6285110500807?text=Halo%2C%20saya%20ingin%20pesan%20paket%20SILVER" target="_blank" rel="noopener" class="btn-premium inline-flex items-center justify-between w-full px-5 py-3.5 rounded-full border border-slate text-paper text-[13px] font-semibold hover:border-paper/50">
+          <span class="relative z-10">Pilih Silver</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 relative z-10"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="rv card-p rounded-2xl p-8 flex flex-col relative border-copper/70 shadow-[0_40px_80px_-40px_rgba(229,105,46,.4)]">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3.5 py-1.5 bg-copper text-white text-[10px] font-mono tracking-[.16em] rounded-full whitespace-nowrap">
+          PALING DIPILIH
+        </div>
+        <div class="flex items-center justify-between mb-6 mt-2">
+          <span class="eyebrow !text-copper">Gold</span>
+          <span class="mono-num text-[10px] text-mist/60">02 / 03</span>
+        </div>
+        <div class="flex items-baseline gap-2 mb-3">
+          <span class="font-sans text-[13px] text-mist">Rp</span>
+          <span class="font-display text-[52px] leading-none mono-num font-light">249</span>
+          <span class="text-[13px] text-mist font-sans">ribu</span>
+        </div>
+        <p class="text-mist text-[13.5px] mb-7 pb-7 border-b border-ash/60">Paket paling seimbang untuk 90% acara.</p>
+        <ul class="space-y-3.5 mb-8 flex-1 text-[14px]">
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>5 tema premium</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Countdown & jadwal acara</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Galeri foto (maks. 20)</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Lokasi + Google Maps</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Musik latar & animasi</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>RSVP & buku tamu online</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Amplop digital + QRIS</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Link personal per tamu</span></li>
+        </ul>
+        <a href="https://wa.me/6285110500807?text=Halo%2C%20saya%20ingin%20pesan%20paket%20GOLD" target="_blank" rel="noopener" class="btn-premium inline-flex items-center justify-between w-full px-5 py-3.5 rounded-full bg-copper text-white text-[13px] font-semibold">
+          <span class="relative z-10">Pilih Gold</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 relative z-10"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="rv card-p rounded-2xl p-8 flex flex-col">
+        <div class="flex items-center justify-between mb-6">
+          <span class="eyebrow">Platinum</span>
+          <span class="mono-num text-[10px] text-mist/60">03 / 03</span>
+        </div>
+        <div class="flex items-baseline gap-2 mb-3">
+          <span class="font-sans text-[13px] text-mist">Rp</span>
+          <span class="font-display text-[52px] leading-none mono-num font-light">399</span>
+          <span class="text-[13px] text-mist font-sans">ribu</span>
+        </div>
+        <p class="text-mist text-[13.5px] mb-7 pb-7 border-b border-ash/60">Fully custom untuk acara besar.</p>
+        <ul class="space-y-3.5 mb-8 flex-1 text-[14px]">
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Semua fitur Gold</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Desain fully custom</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Galeri tanpa batas</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Video sinematik</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Love story timeline</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Custom domain (.com)</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Dashboard rekap tamu</span></li>
+          <li class="flex gap-3 items-start"><span class="text-copper text-[11px] mt-1.5">◆</span><span>Prioritas support 24 jam</span></li>
+        </ul>
+        <a href="https://wa.me/6285110500807?text=Halo%2C%20saya%20ingin%20pesan%20paket%20PLATINUM" target="_blank" rel="noopener" class="btn-premium inline-flex items-center justify-between w-full px-5 py-3.5 rounded-full border border-slate text-paper text-[13px] font-semibold hover:border-paper/50">
+          <span class="relative z-10">Pilih Platinum</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 relative z-10"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONI ============ -->
+<section id="testimoni" class="relative py-28 md:py-36 overflow-hidden">
+  <div class="max-w-[1280px] w-[94%] mx-auto mb-14 rv">
+    <div class="grid md:grid-cols-12 gap-8 items-end">
+      <div class="md:col-span-7">
+        <div class="eyebrow mb-4 flex items-center gap-3">
+          <span class="text-copper">05</span>
+          <span class="w-8 h-px bg-slate"></span>
+          <span>Testimoni</span>
+        </div>
+        <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] font-light">
+          Yang sudah memesan,<br>mereka bilang apa.
+        </h2>
+      </div>
+      <div class="md:col-span-4 md:col-start-9">
+        <div class="flex items-center gap-3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#8a8a94" stroke-width="1.6" class="w-4 h-4 flex-shrink-0"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+          <p class="text-mist text-[13px] leading-relaxed">Geser otomatis. Tahan / klik untuk berhenti.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="tsliderWrap" class="relative select-none tslider-wrap">
+    <div class="pointer-events-none absolute inset-y-0 left-0 w-20 md:w-40 z-10 bg-gradient-to-r from-void to-transparent"></div>
+    <div class="pointer-events-none absolute inset-y-0 right-0 w-20 md:w-40 z-10 bg-gradient-to-l from-void to-transparent"></div>
+    <div id="tslider" class="tslider px-4"></div>
+  </div>
+
+  <div class="max-w-[1280px] w-[94%] mx-auto mt-8 text-center">
+    <span class="font-mono text-[10px] text-mist/60 tracking-[.18em]">[ KLIK & TAHAN UNTUK PAUSE — LEPAS UNTUK LANJUT ]</span>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="relative py-28 md:py-36 bg-coal/40 border-y border-ash/60">
+  <div class="max-w-[1280px] w-[94%] mx-auto grid md:grid-cols-12 gap-12">
+    <div class="md:col-span-4 rv">
+      <div class="eyebrow mb-4 flex items-center gap-3">
+        <span class="text-copper">06</span>
+        <span class="w-8 h-px bg-slate"></span>
+        <span>Pertanyaan</span>
+      </div>
+      <h2 class="font-display text-[clamp(2rem,3.8vw,2.9rem)] leading-[1.02] tracking-[-0.03em] mb-6 font-light">
+        Belum yakin?<br>Ini jawabannya.
+      </h2>
+      <p class="text-mist text-[14.5px] leading-relaxed mb-8">Kalau masih ada yang mengganjal, chat kami langsung. Kami balas rata-rata di bawah 5 menit.</p>
+      <a href="https://wa.me/6285110500807" target="_blank" rel="noopener" class="ulink text-copper text-[13.5px] font-semibold inline-flex items-center gap-1.5">
+        Tanya via WhatsApp
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-3.5 h-3.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+
+    <div class="md:col-span-8 grid gap-0 border-t border-ash/60">
+      <details class="rv group border-b border-ash/60 py-6" open>
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Berapa lama proses pengerjaannya?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Rata-rata 1×24 jam setelah data dan foto lengkap kami terima. Untuk paket Platinum dengan desain fully custom, pengerjaan membutuhkan 2–3 hari kerja.</p>
+      </details>
+
+      <details class="rv group border-b border-ash/60 py-6">
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Jenis acara apa saja yang bisa dibuatkan?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Semua jenis acara. Pernikahan, ulang tahun, khitanan, aqiqah, wisuda, reuni, gathering, corporate event, syukuran — dan acara lain di luar daftar itu.</p>
+      </details>
+
+      <details class="rv group border-b border-ash/60 py-6">
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Apakah bisa revisi? Sampai berapa kali?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Revisi minor (teks, foto, warna, urutan acara) gratis dan tidak dibatasi hingga Anda puas. Revisi besar seperti ganti total tema dikenakan biaya tambahan.</p>
+      </details>
+
+      <details class="rv group border-b border-ash/60 py-6">
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Undangan aktif berapa lama?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Selamanya. Tidak ada biaya perpanjangan dan tidak ada batas waktu, selama layanan kami beroperasi.</p>
+      </details>
+
+      <details class="rv group border-b border-ash/60 py-6">
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Bagaimana cara pembayarannya?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Transfer bank (BCA, Mandiri, BNI, BRI), e-wallet (GoPay, OVO, DANA, ShopeePay), atau QRIS. DP 50% untuk memulai.</p>
+      </details>
+
+      <details class="rv group border-b border-ash/60 py-6">
+        <summary class="flex items-start justify-between gap-6">
+          <span class="font-display text-[20px] md:text-[22px] pr-4 font-light">Foto dan data pribadi kami aman?</span>
+          <span class="plus text-copper text-2xl leading-none flex-shrink-0 mt-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-5 h-5"><path d="M12 5v14M5 12h14"/></svg></span>
+        </summary>
+        <p class="text-mist text-[14.5px] leading-relaxed pt-4 max-w-[640px]">Aman. Kami tidak pernah membagikan atau menjual data klien ke pihak ketiga. Semua file hanya dipakai untuk keperluan pembuatan undangan Anda.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section id="order" class="relative py-28 md:py-36">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="relative card-p rounded-3xl overflow-hidden rv-s">
+      <div class="absolute -top-20 -right-20 w-[420px] h-[420px] rounded-full pointer-events-none opacity-[.14] animate-breathe" style="background:radial-gradient(circle, #e5692e, transparent 65%); filter: blur(70px)"></div>
+
+      <div class="relative p-10 md:p-16 grid md:grid-cols-12 gap-10 items-center">
+        <div class="md:col-span-7">
+          <div class="eyebrow mb-4 flex items-center gap-3">
+            <span class="text-copper">07</span>
+            <span class="w-8 h-px bg-slate"></span>
+            <span>Siap Mulai</span>
+          </div>
+          <h2 class="font-display text-[clamp(2.2rem,4.5vw,3.6rem)] leading-[1.02] tracking-[-0.03em] mb-6 font-light">
+            Ceritakan acara Anda.<br>Kami buatkan undangannya.
+          </h2>
+          <p class="text-mist text-[15px] leading-relaxed max-w-[500px]">Konsultasi gratis, tanpa komitmen. Kami bantu pilih tema, susun struktur, dan beri rekomendasi paket yang paling pas.</p>
+        </div>
+        <div class="md:col-span-5 flex flex-col gap-3">
+          <a href="https://wa.me/6285110500807?text=Halo%20UNDIPRO%2C%20saya%20ingin%20pesan%20undangan%20digital" target="_blank" rel="noopener"
+             data-magnetic class="magnetic btn-premium inline-flex items-center justify-between gap-3 px-6 py-4 rounded-full bg-copper text-white text-[14px] font-semibold">
+            <span class="relative z-10 flex items-center gap-2.5">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat via WhatsApp
+            </span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 relative z-10"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="mailto:hello@undipro.id" data-magnetic class="magnetic btn-premium inline-flex items-center justify-between gap-3 px-6 py-4 rounded-full border border-slate text-paper text-[14px] font-semibold hover:border-paper/50">
+            <span class="relative z-10 flex items-center gap-2.5">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="w-4 h-4"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg>
+              Kirim Email
+            </span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 relative z-10"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <div class="flex items-center gap-2 mt-1.5">
+            <span class="relative flex w-1.5 h-1.5">
+              <span class="absolute inline-flex w-full h-full rounded-full bg-moss animate-ping-slow"></span>
+              <span class="relative inline-flex w-1.5 h-1.5 rounded-full bg-moss"></span>
+            </span>
+            <span class="text-mist text-[12.5px] font-mono">ONLINE · RESPON &lt; 5 MENIT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="relative border-t border-ash/60 pt-16 pb-8">
+  <div class="max-w-[1280px] w-[94%] mx-auto">
+    <div class="grid md:grid-cols-12 gap-10 mb-14">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="relative w-10 h-10 rounded-lg overflow-hidden border border-slate/60 bg-coal shine">
+            <img src="logo.jpg" alt="UNDIPRO" class="w-full h-full object-cover">
+          </div>
+          <div class="flex flex-col leading-none">
+            <span class="text-[15px] font-semibold tracking-tight">UNDIPRO</span>
+            <span class="text-[9px] tracking-[.22em] uppercase text-mist font-mono mt-1">Undangan Digital Pro</span>
+          </div>
+        </div>
+        <p class="text-mist text-[13.5px] leading-relaxed max-w-[380px] mb-6">Jasa undangan digital untuk semua acara. Setiap undangan dirancang dari nol — bukan template yang dijual berulang.</p>
+        <div class="flex gap-2">
+          <a href="#" aria-label="Instagram" class="w-9 h-9 grid place-items-center border border-slate/60 rounded-lg text-mist hover:text-copper hover:border-copper/60 transition">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-4 h-4"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="w-9 h-9 grid place-items-center border border-slate/60 rounded-lg text-mist hover:text-copper hover:border-copper/60 transition">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="https://wa.me/6285110500807" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-9 h-9 grid place-items-center border border-slate/60 rounded-lg text-mist hover:text-copper hover:border-copper/60 transition">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-3">
+        <div class="eyebrow mb-5">Menu</div>
+        <ul class="space-y-3 text-[13.5px]">
+          <li><a href="#acara" class="ulink text-mist hover:text-paper transition-colors">Jenis Acara</a></li>
+          <li><a href="#fitur" class="ulink text-mist hover:text-paper transition-colors">Fitur</a></li>
+          <li><a href="#karya" class="ulink text-mist hover:text-paper transition-colors">Contoh Karya</a></li>
+          <li><a href="#harga" class="ulink text-mist hover:text-paper transition-colors">Harga</a></li>
+          <li><a href="#testimoni" class="ulink text-mist hover:text-paper transition-colors">Testimoni</a></li>
+          <li><a href="#faq" class="ulink text-mist hover:text-paper transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="md:col-span-4">
+        <div class="eyebrow mb-5">Kontak</div>
+        <ul class="space-y-3 text-[13.5px]">
+          <li class="flex items-start gap-2.5 text-mist">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-4 h-4 mt-0.5 flex-shrink-0"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Jl. Melati No. 42, Yogyakarta</span>
+          </li>
+          <li class="flex items-start gap-2.5 text-mist">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-4 h-4 mt-0.5 flex-shrink-0"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 6L2 7"/></svg>
+            <a href="mailto:hello@undipro.id" class="ulink hover:text-paper transition-colors">hello@undipro.id</a>
+          </li>
+          <li class="flex items-start gap-2.5 text-mist">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" class="w-4 h-4 mt-0.5 flex-shrink-0"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="https://wa.me/6285110500807" class="ulink hover:text-paper transition-colors">0851-1050-0807</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-ash/60 pt-6 flex flex-col md:flex-row gap-3 items-center justify-between">
+      <span class="font-mono text-[10.5px] text-mist/70 tracking-wider">© 2026 UNDIPRO — ALL RIGHTS RESERVED</span>
+      <span class="font-mono text-[10.5px] text-mist/70 tracking-wider">MADE IN YOGYAKARTA, ID</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WA -->
+<a href="https://wa.me/6285110500807" target="_blank" rel="noopener" aria-label="Chat WhatsApp" class="fixed bottom-6 right-6 z-40 group">
+  <span class="absolute inset-0 rounded-full bg-moss/40 animate-ping-slow pointer-events-none"></span>
+  <span class="relative w-14 h-14 rounded-full grid place-items-center bg-copper text-white hover:scale-105 transition-transform duration-300" style="box-shadow: 0 20px 40px -12px rgba(229,105,46,.7)">
+    <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </span>
+</a>
+
+<button id="toTop" aria-label="Kembali ke atas" class="fixed bottom-6 left-6 z-40 w-11 h-11 rounded-full border border-slate/60 bg-ink/90 backdrop-blur-xl grid place-items-center text-mist opacity-0 pointer-events-none transition-all duration-400 hover:text-copper hover:border-copper/60 hover:-translate-y-0.5">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script>
+/* ================================================================
+   ============ THEME (DARK / LIGHT) WITH PERSISTENCE =============
+   ================================================================ */
+(function initTheme() {
+  const stored = localStorage.getItem('undipro-theme');
+  const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  if (stored === 'light' || (!stored && prefersLight)) {
+    document.documentElement.classList.remove('dark');
+  } else {
+    document.documentElement.classList.add('dark');
+  }
+})();
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const root = document.documentElement;
+  const isDark = root.classList.toggle('dark');
+  localStorage.setItem('undipro-theme', isDark ? 'dark' : 'light');
+  // update theme-color meta
+  document.querySelector('meta[name="theme-color"]').setAttribute('content', isDark ? '#0a0a0c' : '#f7f5f1');
+  // re-trigger animations for a subtle transition
+  document.body.style.transition = 'background-color .5s ease, color .5s ease';
+});
+
+/* ================================================================
+   ============ PRELOADER (skeleton-style premium) ================
+   ================================================================ */
+(function runPreloader() {
+  const preloader = document.getElementById('preloader');
+  const pctEl = document.getElementById('pctValue');
+  const phoneSkel = document.getElementById('phoneSkeleton');
+  const phoneCont = document.getElementById('phoneContent');
+
+  let pct = 0;
+  const targetTime = 1600; // ms
+  const start = performance.now();
+
+  function tick(now) {
+    const elapsed = now - start;
+    const progress = Math.min(elapsed / targetTime, 1);
+    // Ease-out cubic
+    const eased = 1 - Math.pow(1 - progress, 3);
+    pct = Math.round(eased * 100);
+    pctEl.textContent = pct;
+
+    // When 40% reached, crossfade phone skeleton to content
+    if (pct > 40 && phoneSkel && !phoneSkel.dataset.done) {
+      phoneSkel.dataset.done = '1';
+      phoneSkel.style.transition = 'opacity .6s ease';
+      phoneSkel.style.opacity = '0';
+      phoneCont.style.opacity = '1';
+      setTimeout(() => phoneSkel.remove(), 700);
+    }
+
+    if (progress < 1) {
+      requestAnimationFrame(tick);
+    } else {
+      pctEl.textContent = '100';
+      setTimeout(() => {
+        preloader.classList.add('done');
+        document.body.style.overflow = '';
+      }, 300);
+    }
+  }
+
+  document.body.style.overflow = 'hidden';
+  requestAnimationFrame(tick);
+
+  // Safety: hide after 3.5s max even if network slow
+  setTimeout(() => {
+    if (!preloader.classList.contains('done')) {
+      preloader.classList.add('done');
+      document.body.style.overflow = '';
+      if (phoneSkel && !phoneSkel.dataset.done) {
+        phoneSkel.dataset.done = '1';
+        phoneSkel.style.opacity = '0';
+        phoneCont.style.opacity = '1';
+        setTimeout(() => phoneSkel.remove(), 700);
+      }
+    }
+  }, 3500);
+})();
+
+/* ================================================================
+   ============ NAV ============
+   ================================================================ */
+const nav = document.getElementById('nav');
+const toTop = document.getElementById('toTop');
+window.addEventListener('scroll', () => {
+  const y = window.scrollY;
+  if (y > 20) nav.classList.add('bg-void/85', 'backdrop-blur-2xl', 'border-b', 'border-ash/60');
+  else nav.classList.remove('bg-void/85', 'backdrop-blur-2xl', 'border-b', 'border-ash/60');
+  if (y > 600) toTop.classList.remove('opacity-0', 'pointer-events-none');
+  else toTop.classList.add('opacity-0', 'pointer-events-none');
+}, { passive: true });
+toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+/* ============ MOBILE MENU ============ */
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+document.querySelectorAll('.mob-link').forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+/* ============ REVEAL ============ */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('on');
+      io.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+document.querySelectorAll('.rv, .rv-s, .rv-l, .rv-r').forEach((el, i) => {
+  el.style.transitionDelay = `${(i % 3) * 70}ms`;
+  io.observe(el);
+});
+
+/* ============ FAQ ============ */
+document.querySelectorAll('details').forEach(d => {
+  d.addEventListener('toggle', () => {
+    if (d.open) document.querySelectorAll('details').forEach(o => { if (o !== d) o.open = false; });
+  });
+});
+
+/* ============ PHONE PARALLAX ============ */
+const phone = document.getElementById('phone');
+if (phone && window.matchMedia('(pointer:fine)').matches) {
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y < 1000) phone.style.transform = `rotate(-3deg) translateY(${y * -0.05}px)`;
+  }, { passive: true });
+}
+
+/* ============ 3D TILT ============ */
+document.querySelectorAll('[data-tilt]').forEach(card => {
+  const inner = card.querySelector('.showcase-card') || card;
+  card.addEventListener('mousemove', (e) => {
+    const r = card.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    inner.style.transform = `rotateY(${x * 10}deg) rotateX(${-y * 10}deg) translateZ(20px)`;
+  });
+  card.addEventListener('mouseleave', () => {
+    inner.style.transform = 'rotateY(0) rotateX(0) translateZ(0)';
+  });
+});
+
+/* ============ MAGNETIC ============ */
+if (window.matchMedia('(pointer:fine)').matches) {
+  document.querySelectorAll('[data-magnetic]').forEach(btn => {
+    btn.addEventListener('mousemove', (e) => {
+      const r = btn.getBoundingClientRect();
+      const x = e.clientX - r.left - r.width / 2;
+      const y = e.clientY - r.top - r.height / 2;
+      btn.style.transform = `translate(${x * 0.15}px, ${y * 0.2}px)`;
+    });
+    btn.addEventListener('mouseleave', () => { btn.style.transform = ''; });
+  });
+}
+
+/* ============ TESTIMONIALS ============ */
+const testimonials = [
+  { quote: "Hasilnya jauh di atas ekspektasi. Banyak tamu bilang undangannya bagus dan gampang dibuka. Prosesnya juga cepat banget, sehari langsung jadi.", name: "Rizky & Amelia", event: "Pernikahan · Jakarta", initial: "RA" },
+  { quote: "Bikin undangan ulang tahun anak, hasilnya lucu dan profesional. Fitur RSVP-nya membantu banget ngitung tamu yang datang.", name: "Sarah Nurhaliza", event: "Ulang Tahun · Bandung", initial: "SN" },
+  { quote: "Untuk acara gathering kantor, hasilnya rapi dan profesional. Desainnya custom sesuai branding perusahaan kami. Recommended!", name: "Budi Wijaya", event: "Corporate Event · Surabaya", initial: "BW" },
+  { quote: "Komunikatif, sabar bantu revisi sampai saya puas. Harga sesuai kualitas. Undangan wisuda anak saya jadi berkesan.", name: "Dewi Kartika", event: "Wisuda · Yogyakarta", initial: "DK" },
+  { quote: "Pertama kali pesan online, awalnya ragu. Ternyata prosesnya transparan, dibimbing dari awal sampai undangan siap sebar.", name: "Ahmad Fauzi", event: "Khitanan · Semarang", initial: "AF" },
+  { quote: "Fitur amplop digitalnya praktis. Tamu bisa kirim hadiah tanpa repot, dan semua tercatat rapi di dashboard.", name: "Putri & Dimas", event: "Pernikahan · Bali", initial: "PD" }
+];
+
+const tslider = document.getElementById('tslider');
+const tsliderWrap = document.getElementById('tsliderWrap');
+
+function stars() {
+  return `<div class="flex gap-0.5 text-copper">${'<svg viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>'.repeat(5)}</div>`;
+}
+
+function tcard(t) {
+  return `
+    <article class="w-[340px] md:w-[400px] flex-shrink-0 card-p rounded-2xl p-7 relative">
+      <div class="absolute top-5 right-5 mono-num text-[10px] text-mist/40">/ VOICE</div>
+      ${stars()}
+      <p class="font-serif italic text-[18px] leading-snug text-paper/90 mt-5 mb-7">"${t.quote}"</p>
+      <div class="flex items-center gap-3 pt-5 border-t border-ash/60">
+        <div class="w-9 h-9 rounded-lg grid place-items-center bg-coal border border-slate/60 mono-num text-[11px] text-copper">${t.initial}</div>
+        <div class="min-w-0">
+          <div class="text-[13px] font-semibold text-paper truncate">${t.name}</div>
+          <div class="mono-num text-[10px] text-mist tracking-wider uppercase mt-0.5">${t.event}</div>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+const half = testimonials.map(tcard).join('');
+tslider.innerHTML = half + half;
+
+let held = false;
+tsliderWrap.addEventListener('mousedown', () => { held = true; tslider.classList.add('paused'); });
+tsliderWrap.addEventListener('touchstart', () => { held = true; tslider.classList.add('paused'); }, { passive: true });
+document.addEventListener('mouseup', () => { if (held) { held = false; tslider.classList.remove('paused'); } });
+document.addEventListener('touchend', () => { if (held) { held = false; tslider.classList.remove('paused'); } });
+tsliderWrap.addEventListener('mouseenter', () => tslider.classList.add('paused'));
+tsliderWrap.addEventListener('mouseleave', () => { if (!held) tslider.classList.remove('paused'); });
+
+/* ============ SCROLL SPY ============ */
+const sections = ['acara', 'fitur', 'karya', 'harga', 'testimoni', 'faq'];
+const navLinks = document.querySelectorAll('.nav-link');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top <= 140 && rect.bottom >= 140) current = id;
+    }
+  });
+  navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + current));
+}, { passive: true });
+
+/* ============ SMOOTH ANCHOR ============ */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (href === '#' || href === '') return;
+    const target = document.querySelector(href);
+    if (target) {
+      e.preventDefault();
+      const top = target.getBoundingClientRect().top + window.scrollY - 100;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+
+/* ============ CONNECTION-AWARE SKELETON (network lag) ============ */
+window.addEventListener('online', () => {
+  console.log('Kembali online');
+});
+window.addEventListener('offline', () => {
+  // Jika koneksi terputus di tengah jalan, tampilkan indikator
+  const banner = document.createElement('div');
+  banner.id = 'offlineBanner';
+  banner.className = 'fixed bottom-4 left-1/2 -translate-x-1/2 z-[60] flex items-center gap-3 px-4 py-2.5 rounded-full border border-copper/40 bg-void/95 backdrop-blur-xl shadow-2xl';
+  banner.innerHTML = `
+    <span class="relative flex w-2 h-2">
+      <span class="absolute inline-flex w-full h-full rounded-full bg-wine animate-ping-slow"></span>
+      <span class="relative inline-flex w-2 h-2 rounded-full bg-wine"></span>
+    </span>
+    <span class="text-[12px] font-mono tracking-wide text-paper">Koneksi terputus · menunggu jaringan</span>
+  `;
+  document.body.appendChild(banner);
+});
+</script>
+
+</body>
+</html>
